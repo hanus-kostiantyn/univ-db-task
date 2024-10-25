@@ -1,0 +1,85 @@
+{
+    "tickets": [
+        {
+            "id": 1,
+            "type": "Concert",
+            "event_name": "Rock Fest 2024",
+            "date": "2024-12-20",
+            "price": 50,
+            "status": "available"
+        },
+        {
+            "id": 2,
+            "type": "Theater",
+            "event_name": "Hamlet",
+            "date": "2024-11-15",
+            "price": 30,
+            "status": "sold"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Alice Smith",
+            "email": "alice@example.com",
+            "phone": "1234567890",
+            "address": "123 Main St"
+        },
+        {
+            "id": 2,
+            "name": "Bob Brown",
+            "email": "bob@example.com",
+            "phone": "0987654321",
+            "address": "456 High St"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "ticket_id": 1,
+            "order_date": "2024-10-01",
+            "quantity": 2,
+            "total_price": 100
+        },
+        {
+            "id": 2,
+            "customer_id": 2,
+            "ticket_id": 2,
+            "order_date": "2024-10-05",
+            "quantity": 1,
+            "total_price": 30
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "name": "Rock Fest 2024",
+            "location": "Stadium A",
+            "date": "2024-12-20",
+            "description": "Annual rock music festival."
+        },
+        {
+            "id": 2,
+            "name": "Hamlet",
+            "location": "Theater B",
+            "date": "2024-11-15",
+            "description": "Classic Shakespeare play."
+        }
+    ],
+    "ticketTypes": [
+        {
+            "id": 1,
+            "type_name": "Concert",
+            "description": "Music concert ticket"
+        },
+        {
+            "id": 2,
+            "type_name": "Theater",
+            "description": "Theater performance ticket"
+        },
+        { "id": 3, "type_name": "Cinema", "description": "Movie ticket" },
+        { "id": 4, "type_name": "Sport", "description": "Sports event ticket" },
+        { "id": 5, "type_name": "Museum", "description": "Museum entry ticket" }
+    ]
+}
